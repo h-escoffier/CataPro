@@ -63,9 +63,9 @@ git lfs install
 
 In addition, CataPro also relies on additional pre-trained models, including [prot_t5_xl_uniref50](https://huggingface.co/Rostlab/prot_t5_xl_uniref50) and [molt5-base-smiles2caption](https://huggingface.co/laituan245/molt5-base-smiles2caption). These two models are used for extracting features from enzymes and substrates, respectively.
 
-!!! warning 
-
-    The models prot_t5_xl_uniref50 and molt5-base-smiles2caption required for CataPro are 64 and 1.9 GB, respectively. 
+> [!WARNING] 
+> The models prot_t5_xl_uniref50 and molt5-base-smiles2caption required for CataPro are 64 and 1.9 GB, 
+> respectively. 
 
 ```bash
 # macOS / Linux
